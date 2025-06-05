@@ -1,5 +1,5 @@
-package Clases;
 
+package Clases;
 
 // Clase para representar un Rectángulo
 public class Rectangulo {

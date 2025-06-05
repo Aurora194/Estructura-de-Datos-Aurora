@@ -1,4 +1,7 @@
+
+// Clase principal para probar las figuras
 package Main;
+
 import Clases.Circulo;
 import Clases.Rectangulo;
 
