@@ -1,10 +1,9 @@
 package Clases;
 
+
 // Clase para representar un Rectángulo
 public class Rectangulo {
-
-
-    // Atributos privados: base y altura
+    // Atributos privados para base y altura
     private double base;
     private double altura;
 
@@ -25,6 +24,5 @@ public class Rectangulo {
     public double calcularPerimetro() {
         return 2 * (base + altura);
     }
-
-
 }
+
