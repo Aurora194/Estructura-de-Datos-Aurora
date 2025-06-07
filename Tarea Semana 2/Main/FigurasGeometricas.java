@@ -9,21 +9,21 @@ public class FigurasGeometricas {
 
 
     public static void main(String[] args) {
-        // Crear un objeto de la clase Circulo con radio 7
-        Circulo miCirculo = new Circulo(7);
+        // Generar una instancia de la clase Circulo con un valor de radio 7
+        Circulo circulo = new Circulo(7);
 
         // Mostrar resultados del círculo
         System.out.println("Círculo:");
-        System.out.println("Área: " + miCirculo.calcularArea());
-        System.out.println("Perímetro: " + miCirculo.calcularPerimetro());
+        System.out.println("Área: " + circulo.CalcularArea());
+        System.out.println("Perímetro: " + circulo.CalcularPerimetro());
 
-        // Crear un objeto de la clase Rectangulo con base 4 y altura 8
-        Rectangulo miRectangulo = new Rectangulo(4, 8);
+        // Formar un objeto de la clase Rectángulo con una base de 3 y una altura de 8
+        Rectangulo miRectangulo = new Rectangulo(3, 8);
 
         // Mostrar resultados del rectángulo
         System.out.println("\nRectángulo:");
-        System.out.println("Área: " + miRectangulo.calcularArea());
-        System.out.println("Perímetro: " + miRectangulo.calcularPerimetro());
+        System.out.println("Área: " + miRectangulo.CalcularArea());
+        System.out.println("Perímetro: " + miRectangulo.CalcularPerimetro());
     }
 
 

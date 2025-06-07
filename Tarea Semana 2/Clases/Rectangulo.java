@@ -1,27 +1,27 @@
 
 package Clases;
 
-// Clase para representar un Rectángulo
+// Clase para mostrar un Rectángulo
 public class Rectangulo {
-    // Atributos privados para base y altura
+    // Atributos privados para la base y la altura
     private double base;
     private double altura;
 
-    // Constructor para inicializar base y altura
+    // Constructor para establecer la base y la altura
     public Rectangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
 
-    // Método para calcular el área del rectángulo
+    // Método para determinar la superficie del rectángulo
     // Área = base * altura
-    public double calcularArea() {
+    public double CalcularArea() {
         return base * altura;
     }
 
-    // Método para calcular el perímetro del rectángulo
+    // Forma de determinar el perímetro de un rectángulo
     // Perímetro = 2 * (base + altura)
-    public double calcularPerimetro() {
+    public double CalcularPerimetro() {
         return 2 * (base + altura);
     }
 }

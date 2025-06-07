@@ -1,25 +1,25 @@
 
 package Clases;
 
-// Clase para representar un Círculo
+// Clase para modelar un Círculo
 public class Circulo {
-    // Atributo privado que representa el radio del círculo
+    // Atributo privado que indica la medida del radio del círculo
     private double radio;
 
-    // Constructor para inicializar el radio
+    // Constructor para establecer el radio
     public Circulo(double radio) {
         this.radio = radio;
     }
 
-    // Método para calcular el área del círculo
-    // El área se calcula como π * radio^2
-    public double calcularArea() {
+    // Método para determinar el área del círculo
+    // El área se determina mediante π * radio^2
+    public double CalcularArea() {
         return Math.PI * radio * radio;
     }
 
-    // Método para calcular el perímetro (circunferencia)
-    // Se calcula como 2 * π * radio
-    public double calcularPerimetro() {
+    // Método para determinar el perímetro (circunferencia)
+    // Se determina como 2 * π * radio
+    public double CalcularPerimetro() {
         return 2 * Math.PI * radio;
     }
 }
