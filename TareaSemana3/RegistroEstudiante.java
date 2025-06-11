@@ -7,7 +7,7 @@ public class RegistroEstudiante {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitud de datos al usuario
+        // Solicitud de datos al usuario para el registro
         System.out.println("Ingrese los datos del estudiante");
 
         System.out.print("ID: ");
@@ -22,7 +22,7 @@ public class RegistroEstudiante {
         System.out.print("Dirección: ");
         String direccion = scanner.nextLine();
 
-        // Creación del arreglo para teléfonos
+        // Creación del arreglo para teléfonos del estudiante
         String[] telefonos = new String[3];
         for (int i = 0; i < telefonos.length; i++) {
             System.out.print("Teléfono " + (i + 1) + ": ");
@@ -32,7 +32,7 @@ public class RegistroEstudiante {
         // Crear el objeto Estudiante utilizando el constructor1
         Estudiante estudiante = new Estudiante(id, nombres, apellidos, direccion, telefonos);
 
-        // Mostrar la información ingresada
+        // Mostrar la información ingresada del regsitro
         estudiante.mostrarInformacion();
 
         scanner.close();

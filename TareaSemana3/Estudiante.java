@@ -1,14 +1,14 @@
 // Archivo: Estudiante.java
 
 public class Estudiante {
-    // Atributos de la clase
+    // Atributos de la clase estudiante
     private int id;
     private String nombres;
     private String apellidos;
     private String direccion;
     private String[] telefonos;
 
-    // Constructor de la clase
+    // Constructor de la clase estudiante
     public Estudiante(int id, String nombres, String apellidos, String direccion, String[] telefonos) {
         this.id = id;
         this.nombres = nombres;
