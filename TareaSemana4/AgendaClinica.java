@@ -1,5 +1,5 @@
 public class AgendaClinica {
-    private Paciente[] pacientes;
+    private Paciente[] pacientes = new Paciente[100];
     private int contador;
 
     public AgendaClinica(int capacidad) {
