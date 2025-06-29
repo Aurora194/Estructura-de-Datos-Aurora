@@ -9,7 +9,7 @@ public class NodoInversos {
         int dato;
     NodoInversos siguiente;
 
-    public NodoInversos(int numero) {
+    public NodoInversos(int dato) {
         this.dato = dato;
         this.siguiente = null;
     }

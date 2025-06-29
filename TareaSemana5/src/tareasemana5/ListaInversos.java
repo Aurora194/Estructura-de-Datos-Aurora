@@ -1,21 +1,27 @@
 
 package tareasemana5;
 
+
 /**
  *
  * @author User
  */
 public class ListaInversos {
     private NodoInversos cabeza;
-
-    // Insertar al inicio para invertir el orden
-    public void insertarAlInicio(int valor) {
-        NodoInversos nuevo = new NodoInversos(valor);
-        nuevo.siguiente = cabeza;
-        cabeza = nuevo;
+    
+    
+    public ListaInversos(){
+        cabeza = null;
     }
 
-    // Mostrar la lista separada por comas
+    // Insertar al inicio para invertir el orden
+    public void insertarAlInicio(int dato) {
+        NodoInversos nuevo = new NodoInversos(dato);
+        nuevo.siguiente  = cabeza;
+        cabeza  = nuevo;
+    }
+
+      // Mostrar la lista separada por comas
     public void mostrarInverso() {
         NodoInversos actual = cabeza;
         while (actual != null) {
@@ -27,4 +33,6 @@ public class ListaInversos {
         }
         System.out.println(); // Salto de línea al final
     }
-}
+       
+    }
+
